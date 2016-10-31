@@ -18,7 +18,7 @@ The most important properties of the metadata object provided to the @NgModule d
 Angular modules are completly different than the JavaScript module system for managing collections of JavaScript objects.
 
 Root Module: 
-
+```TypeScript
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 @NgModule({
@@ -29,3 +29,4 @@ import { BrowserModule } from '@angular/platform-browser';
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
+```
