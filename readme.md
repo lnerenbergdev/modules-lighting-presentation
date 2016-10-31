@@ -6,7 +6,7 @@ Every Angular app has at least one module, the root module, conventionally named
 
 Angular application often have other feature modules, standing as cohesive code blocks dedicated to an application domain, a workflow or a closely related set of capabilities
 
-All Angular modules are classes with an @NgModule decorator whitch attaches relevent metadata
+All Angular modules are classes with an ```@NgModule``` decorator whitch attaches relevent metadata
 
 The most important properties of the metadata object provided to the @NgModule decorator are:
 * declarations: view classes beloning to a module (Components, directives and pipes)
